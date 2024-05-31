@@ -10,7 +10,7 @@ import base64
 import threading
 from vk_api.longpoll import VkLongPoll, VkEventType
 
-vk_session = vk_api.VkApi(token='vk1.a.ySMzbWW5UqLmM_Hcumfr1FY8a2r5H-Ny3NfoHlA6dXcmNlCua-R9Ia7bmrCnd1eMq_hiLjtBCk302REPYe73j0w5lEQMwIpQTwg4JZ1hVZ1OrNwwr2y_sg5qpkQQdzfOCNpm62lzJlGVQdo8zU4z_Ym9nmMZapAsxz0mKi3z4yhfGQPG-weR4VgPo3NCtPaYMxn5CW-zlWN46ARaARayqQ')
+vk_session = vk_api.VkApi(token='')
 longpoll = VkLongPoll(vk_session, 25)
 vk = vk_session.get_api()
 upload = VkUpload(vk)
@@ -72,7 +72,7 @@ def send_photo(peer_id, id_random, owner_id, photo_id, access_key):
         )
 
 def get_schedule_from_routeid(routeid): #добавить сохранение расписание для каждого маршрута отдельно, так как фиг знает как будет работать при большой нагрузке один файл
-        response = requests.get('https://testapi.igis-transport.ru/vk-2FYffVHod55q89Br/schedule/{route}'.format(route=routeid))
+        response = requests.get(''.format(route=routeid))
         if response.status_code == 200:
                 json_data = response.json()
                 data = json_data.get('data')
