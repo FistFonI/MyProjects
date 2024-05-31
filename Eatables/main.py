@@ -8,7 +8,7 @@ import asyncio
 import logging
 from aiogram import F
 
-API_TOKEN ='6604049024:AAHkBup4Cc_iy9XjMq5_LBp90ZjXd-axWYg'
+API_TOKEN =''
 
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=API_TOKEN)
