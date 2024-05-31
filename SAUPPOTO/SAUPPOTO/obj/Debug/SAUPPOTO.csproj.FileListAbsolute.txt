@@ -1,0 +1,14 @@
+C:\Users\Dmitry\Desktop\SAUPPOTO\SAUPPOTO\bin\Debug\SAUPPOTO.exe.config
+C:\Users\Dmitry\Desktop\SAUPPOTO\SAUPPOTO\bin\Debug\SAUPPOTO.exe
+C:\Users\Dmitry\Desktop\SAUPPOTO\SAUPPOTO\bin\Debug\SAUPPOTO.pdb
+C:\Users\Dmitry\Desktop\SAUPPOTO\SAUPPOTO\obj\Debug\SAUPPOTO.csproj.AssemblyReference.cache
+C:\Users\Dmitry\Desktop\SAUPPOTO\SAUPPOTO\obj\Debug\SAUPPOTO.EmployeeEditForm.resources
+C:\Users\Dmitry\Desktop\SAUPPOTO\SAUPPOTO\obj\Debug\SAUPPOTO.Properties.Resources.resources
+C:\Users\Dmitry\Desktop\SAUPPOTO\SAUPPOTO\obj\Debug\SAUPPOTO.csproj.GenerateResource.cache
+C:\Users\Dmitry\Desktop\SAUPPOTO\SAUPPOTO\obj\Debug\SAUPPOTO.csproj.CoreCompileInputs.cache
+C:\Users\Dmitry\Desktop\SAUPPOTO\SAUPPOTO\obj\Debug\SAUPPOTO.exe
+C:\Users\Dmitry\Desktop\SAUPPOTO\SAUPPOTO\obj\Debug\SAUPPOTO.pdb
+C:\Users\Dmitry\Desktop\SAUPPOTO\SAUPPOTO\obj\Debug\SAUPPOTO.MainMenuForm.resources
+C:\Users\Dmitry\Desktop\SAUPPOTO\SAUPPOTO\obj\Debug\SAUPPOTO.EmployeeMenuForm.resources
+C:\Users\Dmitry\Desktop\SAUPPOTO\SAUPPOTO\obj\Debug\SAUPPOTO.StatisticForm.resources
+C:\Users\Dmitry\Desktop\SAUPPOTO\SAUPPOTO\obj\Debug\SAUPPOTO.EmployeeAddForm.resources
