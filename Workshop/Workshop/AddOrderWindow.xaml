@@ -1,0 +1,78 @@
+﻿<Window x:Class="Workshop.AddOrderWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Workshop"
+        mc:Ignorable="d"
+        Title="Добавление нового заказа" Height="300" Width="400" ResizeMode="NoResize" ShowInTaskbar="False" WindowStartupLocation="CenterOwner" 
+        Loaded="Window_Loaded" Icon="add.png">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="Марка изделия:" Margin="5" VerticalAlignment="Center"/>
+        <TextBox Grid.Row="0" Grid.Column="1" x:Name="NameTextBox" Margin="5" VerticalAlignment="Center">
+            <TextBox.ToolTip>
+                <ToolTip>
+                    Введите марку изделия.
+                </ToolTip>
+            </TextBox.ToolTip>
+        </TextBox>
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="Дата приёма:" Margin="5" VerticalAlignment="Center"/>
+        <DatePicker Grid.Row="1" Grid.Column="1" x:Name="DatePicker" Margin="5" VerticalAlignment="Center">
+            <DatePicker.ToolTip>
+                <ToolTip>
+                    Введите или выберите дату приёма заказа.
+                </ToolTip>
+            </DatePicker.ToolTip>
+        </DatePicker>
+        <TextBlock Grid.Row="2" Grid.Column="0" Text="Состояние готовности заказа:" Margin="5" TextWrapping="Wrap" VerticalAlignment="Center"/>
+        <ComboBox x:Name="ReadinessCB" Grid.Row="2" Grid.Column="1" Margin="5" VerticalAlignment="Center">
+            <ComboBoxItem x:Name="NotReadyCBI" Content="Не отремонтирован"/>
+            <ComboBoxItem x:Name="InProcessCBI" Content="Ремонтируется"/>
+            <ComboBoxItem x:Name="ReadyCBI" Content="Отремонтирован"/>
+            <ComboBoxItem x:Name="CanceledCBI" Content="Отменён"/>
+            <ComboBox.ToolTip>
+                <ToolTip>
+                    Выберите состояние готовности заказа.
+                </ToolTip>
+            </ComboBox.ToolTip>
+        </ComboBox>
+        <TextBlock Grid.Row="3" Grid.Column="0" Text="Описание проблемы:" Margin="5" VerticalAlignment="Center"/>
+        <TextBox Grid.Row="3" Grid.Column="1" x:Name="DescriptionTextBox" Margin="5" TextWrapping="Wrap" AcceptsReturn="True"
+                 VerticalScrollBarVisibility="Auto" >
+            <TextBox.ToolTip>
+                <ToolTip>
+                    Опишите проблемы, из-за которых обратились в ремонт.
+                </ToolTip>
+            </TextBox.ToolTip>
+        </TextBox>
+        <StackPanel Grid.Row="4" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button x:Name="AddButton" Content="Добавить" Margin="5" Cursor="Hand" IsDefault="True" Click="AddButton_Click">
+                <Button.ToolTip>
+                    <ToolTip>
+                        При нажатии на данную кнопку, произойдёт добавление нового заказа с указанными данными.
+                    </ToolTip>
+                </Button.ToolTip>
+            </Button>
+            <Button x:Name="CancelButton" Content="Отменить" Margin="5" Cursor="Hand" IsCancel="True" Click="CancelButton_Click">
+                <Button.ToolTip>
+                    <ToolTip>
+                        При нажатии на данную кнопку, вы вернётесь к списку заказов, без добавления нового заказа.
+                    </ToolTip>
+                </Button.ToolTip>
+            </Button>
+        </StackPanel>
+
+    </Grid>
+</Window>
