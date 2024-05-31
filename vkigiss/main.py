@@ -88,7 +88,7 @@ def get_schedule_from_routeid(routeid): #добавить сохранение �
                 return ""  
          
 def get_time_from_stops(start, end):
-                response = requests.get('https://testapi.igis-transport.ru/vk-2FYffVHod55q89Br/prediction-stop/{stop_start}-{stop_finish}'.format(stop_start=start, stop_finish=end))
+                response = requests.get(''.format(stop_start=start, stop_finish=end))
                 json_data = response.json()
                 data = json_data.get('data')
                 routeid = list(data.keys())[0]
