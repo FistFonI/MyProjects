@@ -1,0 +1,32 @@
+{
+    "one_time": true,
+    "buttons": [
+      [
+        {
+          "action": {
+            "type": "text",
+            "label": "Время"
+          },
+          "color": "primary"
+        }      
+      ],
+      [
+        {
+          "action": {
+            "type": "text",
+            "label": "Транспорт"
+          },
+          "color": "primary"
+        }      
+      ],
+      [
+        {
+          "action": {
+            "type": "text",
+            "label": "Меню"
+          },
+          "color": "positive"
+        }      
+      ]
+    ]
+  }

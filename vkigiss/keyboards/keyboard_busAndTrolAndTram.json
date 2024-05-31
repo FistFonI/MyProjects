@@ -1,0 +1,41 @@
+{
+    "one_time": true,
+    "buttons": [
+      [
+        {
+          "action": {
+            "type": "text",
+            "label": "Автобус"
+          },
+          "color": "primary"
+        }      
+      ],
+    [
+      {
+        "action": {
+          "type": "text",
+          "label": "Троллейбус"
+        },
+        "color": "primary"
+      }      
+    ],
+    [
+      {
+        "action": {
+          "type": "text",
+          "label": "Трамвай"
+        },
+        "color": "primary"
+      }      
+    ],
+    [
+      {
+        "action": {
+          "type": "text",
+          "label": "Меню"
+        },
+        "color": "positive"
+      }      
+    ]
+      ]
+    }

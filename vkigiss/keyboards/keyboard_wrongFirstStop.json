@@ -1,0 +1,23 @@
+{
+    "one_time": true,
+    "buttons": [
+      [
+        {
+            "action": {
+              "type": "text",
+              "label": "Меню"
+            },
+            "color": "primary"
+          }      
+      ],
+      [
+        {
+            "action": {
+              "type": "text",
+              "label": "Назад"
+            },
+            "color": "negative"
+        }        
+      ]
+    ]
+}
