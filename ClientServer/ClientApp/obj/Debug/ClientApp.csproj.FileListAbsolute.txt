@@ -1,0 +1,11 @@
+C:\Users\Dmitry\Desktop\СИТ\LR4Game\ClientApp\bin\Debug\ClientApp.exe.config
+C:\Users\Dmitry\Desktop\СИТ\LR4Game\ClientApp\bin\Debug\ClientApp.exe
+C:\Users\Dmitry\Desktop\СИТ\LR4Game\ClientApp\bin\Debug\ClientApp.pdb
+C:\Users\Dmitry\Desktop\СИТ\LR4Game\ClientApp\obj\Debug\ClientApp.csproj.AssemblyReference.cache
+C:\Users\Dmitry\Desktop\СИТ\LR4Game\ClientApp\obj\Debug\ClientApp.csproj.CoreCompileInputs.cache
+C:\Users\Dmitry\Desktop\СИТ\LR4Game\ClientApp\obj\Debug\ClientApp.exe
+C:\Users\Dmitry\Desktop\СИТ\LR4Game\ClientApp\obj\Debug\ClientApp.pdb
+C:\Users\Dmitry\Desktop\СИТ\LR4Game\ClientApp\obj\Debug\ClientApp.GameForm.resources
+C:\Users\Dmitry\Desktop\СИТ\LR4Game\ClientApp\obj\Debug\ClientApp.csproj.GenerateResource.cache
+C:\Users\Dmitry\Desktop\СИТ\LR4Game\ClientApp\obj\Debug\ClientApp.Properties.Resources.resources
+C:\Users\Dmitry\Desktop\СИТ\LR4Game\ClientApp\obj\Debug\ClientApp.ServersListForm.resources

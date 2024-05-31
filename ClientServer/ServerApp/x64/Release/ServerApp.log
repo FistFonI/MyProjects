@@ -1,0 +1,12 @@
+﻿  ServerApp.cpp
+C:\Users\Dmitry\Desktop\СИТ\LR4Game\ServerApp\ServerApp.cpp(109,126): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Dmitry\Desktop\СИТ\LR4Game\ServerApp\ServerApp.cpp(186,62): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Dmitry\Desktop\СИТ\LR4Game\ServerApp\ServerApp.cpp(211,51): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Dmitry\Desktop\СИТ\LR4Game\ServerApp\ServerApp.cpp(225,52): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Dmitry\Desktop\СИТ\LR4Game\ServerApp\ServerApp.cpp(258,57): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Dmitry\Desktop\СИТ\LR4Game\ServerApp\ServerApp.cpp(274,44): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  Создание кода
+  Previous IPDB not found, fall back to full compilation.
+  All 283 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  ServerApp.vcxproj -> C:\Users\Dmitry\Desktop\СИТ\LR4Game\x64\Release\ServerApp.exe

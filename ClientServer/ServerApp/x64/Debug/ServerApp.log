@@ -1,0 +1,8 @@
+﻿  ServerApp.cpp
+C:\Users\Dmitry\Desktop\СИТ\LR4Game\ServerApp\ServerApp.cpp(109,126): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Dmitry\Desktop\СИТ\LR4Game\ServerApp\ServerApp.cpp(188,62): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Dmitry\Desktop\СИТ\LR4Game\ServerApp\ServerApp.cpp(213,51): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Dmitry\Desktop\СИТ\LR4Game\ServerApp\ServerApp.cpp(227,52): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Dmitry\Desktop\СИТ\LR4Game\ServerApp\ServerApp.cpp(260,57): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Dmitry\Desktop\СИТ\LR4Game\ServerApp\ServerApp.cpp(276,44): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  ServerApp.vcxproj -> C:\Users\Dmitry\Desktop\СИТ\LR4Game\x64\Debug\ServerApp.exe
